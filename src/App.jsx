@@ -1,15 +1,20 @@
 import { useState } from 'react'
 import { Button } from '@chakra-ui/react'
+import { Route,Routes } from 'react-router-dom'
+import { HomePage } from '../pages/HomePage/HomePage';
+import { AuthPage } from '../pages/AuthPage/AuthPage';
+import { ProfilePage } from '../pages/ProfilePage/ProfilePage';
 
 
-function App() {
- 
+function App() { 
 
   return (
     <>
-      <Button>
-       hello world
-    </Button>
+      <Routes>
+        <Route path ="/" element = {<HomePage />} />
+        <Route path ="/auth" element = {<AuthPage/>} />
+        <Route path ="/profile" element = {<ProfilePage/>} />
+      </Routes>
     </>
   )
 }
