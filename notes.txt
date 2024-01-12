@@ -1,1 +1,9 @@
 npm run dev
+ react + vite + chakra-ui
+ Extremely useful stack
+ Speeds up ui implementation by 50%
+ The ui is already predefined
+ Css is not required.
+ lib is maintained
+ Zero hassles in dev
+ https://chakra-ui.com/docs/
