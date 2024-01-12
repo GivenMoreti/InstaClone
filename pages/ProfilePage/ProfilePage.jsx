@@ -1,13 +1,13 @@
 import { Container } from '@chakra-ui/react'
 import { ProfileHeader } from './ProfileHeader'
-import { ProfileFooter } from './ProfileFooter'
-
+import { ProfileTabs } from './ProfileTabs'
 
 export const ProfilePage = () => {
   return (
     <Container maxW={"full"}>
       <ProfileHeader />
-      <ProfileFooter />
+      <ProfileTabs />
+
 
     </Container>
   )
