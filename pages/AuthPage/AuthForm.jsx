@@ -22,10 +22,10 @@ export const AuthForm = () => {
 
   const handleAuth = () => {
     
-    if (!email || !password || !confirmPassword) {
+    if (email === "" || password ==="" || confirmPassword ==="") {
       alert("Fields empty");
     }else{
-        navigate("/");
+      navigate("/");
     }
   };
 

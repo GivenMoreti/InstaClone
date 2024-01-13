@@ -24,7 +24,7 @@ const sidebarIcons = [
   {
     icon: <span class="material-icons md-18">person</span>,
     text: "Profile",
-    link: "/",
+    link: "/:",
   },
   {
     icon: <span class="material-icons md-18">add</span>,
@@ -34,7 +34,7 @@ const sidebarIcons = [
   {
     icon: <span class="material-icons md-18">logout</span>,
     text: "Logout",
-    link: "/",
+    link: "/auth",
   },
 ];
 

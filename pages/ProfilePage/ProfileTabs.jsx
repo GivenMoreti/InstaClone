@@ -8,31 +8,22 @@ export const ProfileTabs = () => {
       justifyContent={"center"}
       textTransform={"uppercase"}
       fontWeight={"bold"}
-      borderTop={"0.2px solid gray"}   //go be removed
+      borderTop={"0.2px solid gray"} //go be removed
     >
-      <Flex >
+      <Flex alignItems={"center"}>
         <Box fontSize={20}>
-          <Text>
-            <span class="material-icons md-18">grid</span>
-          </Text>
           <Text>Posts</Text>
         </Box>
       </Flex>
 
-      <Flex gap={4}>
+      <Flex gap={4} alignItems={"center"}>
         <Box fontSize={20}>
-          <Text>
-            <span class="material-icons md-18">love</span>
-          </Text>
           <Text>saved</Text>
         </Box>
       </Flex>
 
-      <Flex gap={4}>
+      <Flex gap={4} alignItems={"center"}>
         <Box fontSize={20}>
-          <Text>
-            <span class="material-icons md-18">love</span>
-          </Text>
           <Text>likes</Text>
         </Box>
       </Flex>
