@@ -8,9 +8,9 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { Login } from "./Login";
 import { SignUp } from "./SignUp";
+import { GoogleAuth } from "./GoogleAuth";
 
 
 export const AuthForm = () => {
@@ -38,12 +38,9 @@ export const AuthForm = () => {
           </Text>
           <Box flex={2} h={"1px"} bg={"gray.400"} />
         </Flex>
-        <Flex lignItems={"center"} justifyContent={"center"}>
-          <Image src="./google.png" w={5} alt="google logo" />
-          <Text mx={2} color={"blue.500"} cursor={"pointer"}>
-            Sign in with google
-          </Text>
-        </Flex>
+
+        <GoogleAuth/>
+
         {/* sign up if you dont have account */}
 
         <Flex lignItems={"center"} justifyContent={"center"}>
